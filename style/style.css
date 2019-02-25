@@ -3,10 +3,26 @@ body {
 
 }
 
-div #about:hover ~ div #title{
+.about{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
     background-image: url('../images/aboutme.png');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social{
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 80%;
+    height: 80%;
+    background-image: url('../images/sociallinks.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 img{    
@@ -94,8 +110,8 @@ img:hover{
 
 #minigrid {
     position: relative;
-    width: 90%;
-    margin: -5% -5% auto;
+    width: 100%;
+    margin-left: -12%;
     padding: 0; /* Clears unordered list default of 40px */
 }
 
